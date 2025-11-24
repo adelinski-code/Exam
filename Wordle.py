@@ -2,6 +2,8 @@ print("Welcome to Wordle! You have 6 attempts to guess the correct 5-letter word
 
 user_input = input("Your guess: ")
 
+wordle = "hello"
+
 wordle_letters = len(wordle)
 
 if wordle_letters == 5:
